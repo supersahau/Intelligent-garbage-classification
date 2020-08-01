@@ -1,0 +1,168 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"appid": "wxb862f2198052f354",
+	"projectname": "%E6%99%BA%E8%83%BD%E5%9E%83%E5%9C%BE%E5%88%86%E7%B1%BB%E5%8F%8A%E8%80%83%E8%AF%95%E7%B3%BB%E7%BB%9F",
+	"libVersion": "2.10.2",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "分类",
+					"pathName": "pages/sort/sort",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "拍照页面",
+					"pathName": "pages/ai/camera/camera",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "搜索",
+					"pathName": "pages/ai/search",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "筛选",
+					"pathName": "pages/ai/filter/filter",
+					"query": "type=3",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "ai 搜索结果",
+					"pathName": "pages/result/gan",
+					"query": "keyword=花",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "未查询到的结果提交",
+					"pathName": "pages/result/commit",
+					"query": "keyword=花",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "小Q",
+					"pathName": "pages/android/qa",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Ad",
+					"pathName": "pages/ad/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 10,
+					"name": "page/four/index",
+					"pathName": "page/four/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Game",
+					"pathName": "pages/game/game",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/add/add",
+					"pathName": "pages/add/add",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 13,
+					"name": "pages/examresult/examresult",
+					"pathName": "pages/examresult/examresult",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 14,
+					"name": "pages/note/note",
+					"pathName": "pages/note/note",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/exam/exam",
+					"pathName": "pages/exam/exam",
+					"query": "type=3",
+					"scene": null
+				}
+			]
+		}
+	}
+}
