@@ -1,0 +1,13 @@
+<view class='ai-view' bindtap="addLaji">
+  <text class='txt'>选择垃圾所属分类</text>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{nameList}}">
+    <view class="tip">
+      当前选择：{{nameList[index]}}
+    </view>
+  </picker>
+<view class='ai-view' bindtap="addLaji">
+  <text class='txt'>输入物品名：</text>
+  <input class="input" placeholder-class="input-class" placeholder="如香蕉" bindinput="getData"></input>
+  <button bindtap="submit" type="primary" class="btn">提交</button>
+</view>
+</view>

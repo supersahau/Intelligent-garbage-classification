@@ -1,0 +1,46 @@
+<!-- 顶部信息 -->
+<image class="topImg" src="../../images/top.jpg"></image>
+<!-- 这是垃圾分类页面 -->
+<view class="laji">
+  <view class="laji-left">
+    <!-- 彩色导航条 -->
+    <view class="laji-liebiao-left">
+      <view class="laji-liebiao-left0"></view>
+      <view class="laji-liebiao-left1"></view>
+      <view class="laji-liebiao-left2"></view>
+      <view class="laji-liebiao-left3"></view>
+    </view>
+    <!-- 左侧分类栏 -->
+    <view class="laji-liebiao">
+      <view bindtap="xuanzhong" wx:for="{{xuan}}" wx:key="index" data-item="{{item}}" data-index="{{index}}" class="{{item.id==currentData.idx? currentData._laji_biao :'laji-biao'}}">{{item.name}}</view>
+    </view>
+  </view>
+  <!-- 内容区域 -->
+  <view class="laji-content">
+    <view class="{{currentData.content_bg_color}}">
+      <view class="content-img">
+        <image src="{{currentData.content_img}}"></image>
+      </view>
+      <view class="content-jieshi">
+        <text class="content-jieshi_text1">{{currentData.title}}</text>
+        <text class="content-jieshi_text2">{{currentData.gainian}}</text>
+      </view>
+
+      <view class="content-baokuo">
+        <view class="content-baokuo-top">
+          <text>{{currentData.baokuo}}</text>
+        </view>
+        <view class="content-baokuo-bottom">
+          <text>{{currentData.baokuo_content}}</text>
+        </view>
+        <view class="content-baokuo-top">
+          <text>{{currentData.yaoqiu}}</text>
+        </view>
+        <view class="content-baokuo-bottom1">
+          <text>{{currentData.yaoqiu_content}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>
