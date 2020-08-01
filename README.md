@@ -6,7 +6,7 @@
 
 ```
  wx.cloud.init({
-        env: "你的APPID"
+        env: "你的云开发环境ID"
  })
 ```
 
@@ -16,3 +16,5 @@
 权限都设置为所有人可读写
 
 如有问题咨询，请联系企鹅：supersahau@vip.qq.com
+
+Copyright©supersahau
